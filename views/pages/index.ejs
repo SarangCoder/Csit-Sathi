@@ -1,1 +1,75 @@
 <% layout("/layouts/boilerplate") %>
+
+<div class="container land-page mt-5">
+    <div class="row">
+        <div class="col-md-5 me-auto d-flex align-items-center left-content">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title fw-semibold">Innovate, Learn and Succeed</h2>
+                    <p class="card-text fs-6">Unlock your creativity with cutting-edge tools and resources that inspire innovation.</p>
+                    <button type="button" class="btn  explore-btn">Explore Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 d-flex justify-content-center align-items-center right-content">
+            <img src="https://img.freepik.com/free-vector/business-man-working-hard-stock-financial-trade-market-diagram-vector-illustration-flat-design_1150-39773.jpg?t=st=1721543949~exp=1721547549~hmac=31510c9a7b9cc714b6cedf4335e1d2426cc67f44686c86c6e3fd81c219724443&w=740"
+                 class="img-fluid main-img" alt="Business Illustration">
+        </div>
+    </div>
+</div>
+
+<section class="sec-2 mt-5 mb-4">
+    <div class="container-fluid semester-page">
+        <div class="row text-center justify-content-center top">
+            <div class="col-12 semester-top-content">
+                <h5>START LEARNING</h5>
+                <p class="fs-2 fw-bold">PERFECT <span class="text-dark"> STUDY</span> FROM TODAY</p>
+                <h6>CHOOSE YOUR SEMESTER</h6>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center gap-5  mt-5">
+            <% for(let i=1; i < 9; i++) { %>
+                <div class="col-12 col-sm-6 col-md-3 mb-3 text-center card  card-sem" id="sem<%= i %>">
+                    <div class="icon">
+                        <i class="fas da-star"></i>
+                    </div>
+                    <div class="card-side-content">
+                        <h6>First Semester</h6>
+                        <p class="fs-6">C Programming Language</p>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</section>
+
+<section class="container features-page">
+    <div class="row">
+        <div class="col-12 col-md-4 mb-md-0 shadow-sm left-content-feature bg-primary">
+            <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865274.jpg?t=st=1721550722~exp=1721554322~hmac=e932659a464c0eb9c87e18b245f1e9626357e9e2ecb22307178077866fcc3c1a&w=740"
+                 class="img-fluid main-img" alt="Analysis">
+        </div>
+        <div class="col-12 col-md-8  right-content-feature bg-dange "> <!-- Added margin start for medium screens -->
+            <div class="card w-100">
+                <div class="card-body">
+                    <h2 class="card-title card-feature fw-semibold">We <span>Offer Various</span> Features You Can Try:</h2>
+                    <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+                    
+                    
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>24/7 Platform Support</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Flexible Learning</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Expert Instructor</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Comprehensive Learning</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Up to date-content</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Community & Network</h4>
+                    <h4 class="fs-6 lh-lg"><i class="fa-solid fa-arrow-right"></i>Best Learning Materials</h4>
+
+
+
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
